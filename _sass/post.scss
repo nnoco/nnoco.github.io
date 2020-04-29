@@ -18,7 +18,7 @@
         color: black;
     }
 
-    p code {
+    p code, li > code {
         box-sizing: content-box;
         padding: 5px;
         background-color: rgb(230, 230, 230);
