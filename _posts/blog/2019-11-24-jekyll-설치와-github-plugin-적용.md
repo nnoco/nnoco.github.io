@@ -42,7 +42,7 @@ curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor 
 
 ## rbenv로 사용할 수 있는 버전 확인하고 설치 및 사용하기
 ```bash
-# 설치되어 있느 루비 버전들을 확인
+# 설치되어 있는 루비 버전들을 확인
 rbenv versions
 
 # 현재 사용중인 루비 버전을 확인

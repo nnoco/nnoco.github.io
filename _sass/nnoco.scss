@@ -1,3 +1,13 @@
+// font-family: 'Nanum Gothic', sans-serif;
+// font-family: 'Nanum Myeongjo', serif;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+
+* {
+    font-family: 'Noto Sans Kr', sans-serif;
+}
+
 .wrapper {
     padding: 70px 8%;
 }
@@ -14,11 +24,13 @@
 }
 .site-title {
     display: inline-block;
+    font-weight: 900;
     width: 30%;
 }
 
 .site-nav {
     display: inline-block;
+    font-weight: 100;
     width: 70%;
     text-align: right;
 
@@ -50,8 +62,10 @@
         }
 
         .post-meta {
-            margin-block-start: 8px;
+            margin-block-start: 16px;
             color: grey;
+            font-size: 0.8em;
+            font-weight: 100;
 
             .post-meta-item {
                 background-color: #efefef;
@@ -69,7 +83,9 @@
             font-weight: lighter;
         }
         .excerpt {
-            line-height: 2.5;
+            line-height: 2;
+            font-family: 'Nanum Myeongjo', serif;
+            font-weight: light;
         }
 
         ul {
@@ -93,7 +109,12 @@
         content: "|";
         position: absolute;
         color: transparent;
+        top: 4px;
         left: -15px;
         border-left: 5px solid black;
     }
+}
+
+.post-content {
+    font-family: 'Nanum Myeongjo', serif
 }
