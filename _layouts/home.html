@@ -14,7 +14,7 @@ title: HOME
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
-      <li>
+      <li class="post-item" data-target="{{ post.url | relative_url }}">
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
@@ -50,3 +50,13 @@ title: HOME
   {%- endif -%}
 
 </div>
+
+<script>
+  (() => {
+    document.querySelectorAll('.post-item').forEach(li => li.onclick = function() {
+      if(this.dataset.target) {
+        location.href = this.dataset.target;
+      }
+    })
+  })();
+</script>
