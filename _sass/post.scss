@@ -90,9 +90,9 @@
     }
 
     blockquote::before {
-        content: "\"";
+        content: "“";
         position: absolute;
-        font-family: 'Nanum Gothic Coding';
+        font-family: 'Nanum Myeongjo', serif;
         font-size: 3em;
         left: 10px;
         top: 10px;
