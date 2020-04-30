@@ -1,8 +1,9 @@
 ---
 title: Java PriorityQueue
-category: java
+category: [dev, java]
 tags: 
   - Java
+  - Collection
   - 자료구조
   - 우선순위큐
   - PriorityQueue

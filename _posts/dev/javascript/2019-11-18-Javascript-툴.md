@@ -1,8 +1,9 @@
 ---
 title: Javascript 툴
 tags:
-  - null
-categories: [javascript, tool]
+  - Javascript
+  - Tool
+categories: [dev, javascript]
 date: 2019-11-18 21:56:04
 ---
 # Package Manager(Dependency Manager)
