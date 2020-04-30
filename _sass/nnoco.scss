@@ -50,7 +50,7 @@
     .post-item {
         cursor: pointer;
     }
-    
+
     li {
         // line-height: 2;
         box-sizing: content-box;
@@ -70,13 +70,20 @@
             color: grey;
             font-size: 0.8em;
             font-weight: 100;
+            line-height: 2em;
+
+            time {
+                margin-right: 0.5em;
+            }
 
             .post-meta-item {
+                line-height: 1.2em;
                 background-color: #efefef;
                 padding: 2px 10px;
                 box-sizing: content-box;
                 border-radius: 1em;
-                margin-left: 0.5em;
+                margin-right: 0.5em;
+                display: inline-block;
             }
         }
 
@@ -116,6 +123,15 @@
         top: 4px;
         left: -15px;
         border-left: 5px solid black;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
     }
 }
 
