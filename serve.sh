@@ -1,2 +1,2 @@
 #!/bin/bash
-bundle exec jekyll serve --future -V --drafts
+bundle exec jekyll serve --future -V --drafts -w

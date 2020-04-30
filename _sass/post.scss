@@ -19,11 +19,12 @@
         color: black;
     }
 
-    p code, li > code {
+    p code, li > code, h1 > code, h2 > code, h3 > code {
         box-sizing: content-box;
         padding: 5px;
         background-color: rgb(230, 230, 230);
         border-radius: 2px;
+        color: #bd6161;
     }
 
     strong {
@@ -78,6 +79,23 @@
 
     img {
         max-width: 100%;
+    }
+
+    blockquote {
+        position: relative;
+        margin: 2em 0;
+        padding: 1px 20px 1px 45px;
+        background-color: #efefef;
+        border-radius: 6px;
+    }
+
+    blockquote::before {
+        content: "\"";
+        position: absolute;
+        font-family: 'Nanum Gothic Coding';
+        font-size: 3em;
+        left: 10px;
+        top: 10px;
     }
 
     div.highlight {
