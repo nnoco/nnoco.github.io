@@ -11,6 +11,9 @@
 
     {%- if page_paths -%}
     <nav class="site-nav">
+      <input id="site-nav-toggle" type="checkbox">
+      <label for="site-nav-toggle">Pages</label>
+      
       {%- for path in page_paths -%}
         {%- assign my_page = site.pages | where: "path", path | first -%}
         {%- if my_page.title -%}

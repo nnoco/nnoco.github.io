@@ -16,6 +16,10 @@
     padding-top: 0;
 }
 
+#site-nav-toggle {
+    display: none;
+}
+
 .site-header {
     a, a:visited {
         color: black;
@@ -33,6 +37,10 @@
     font-weight: 100;
     width: 70%;
     text-align: right;
+
+    label[for="site-nav-toggle"] {
+        display: none;
+    }
 
     a:not(:last-child):after{
         content: "";
@@ -132,6 +140,45 @@
         width: 100%;
         padding: 20px;
         box-sizing: border-box;
+    }
+
+    .site-title {
+        display: inline-block;
+        font-weight: 900;
+        width: 70%;
+    }
+
+    .site-nav {
+        position: absolute;
+        right: 20px;
+        display: inline-block;
+        font-weight: 100;
+        width: 30%;
+        text-align: right;
+
+        label[for="site-nav-toggle"] {
+            display: inline-block;
+        }
+    
+        a {
+            display: none;
+            margin-top: 10px;
+        }
+
+        a:not(:last-child):after{
+            content: none;
+            margin-right: 0;
+        }
+
+        #site-nav-toggle:checked ~ a {
+            display: block;
+        }
+        
+
+        // a:not(:last-child):after{
+        //     content: "";
+        //     margin-right: 30px;
+        // }
     }
 }
 
