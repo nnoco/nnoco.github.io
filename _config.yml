@@ -27,6 +27,7 @@ url: "https://nnoco.github.io" # the base hostname & protocol for your site, e.g
 twitter_username: ma_non_troppo
 github_username:  nnoco
 lang: ko
+author: nnoco
 
 show_excerpts: true
 
