@@ -12,7 +12,8 @@
     {% for post in series.posts %}
     <li>
         <div>
-            <!-- {{ page.url == post.path }} -->
+            {% assign isCurrent = page.url == post.path %}
+            <!-- {{ isCurrent }} -->
             {%- if post.published == false -%}
             <span class="series-not-published">{{ post.title }}</span>
             {%- elsif page.url contains post.path -%}
