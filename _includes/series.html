@@ -1,0 +1,27 @@
+{% if page.series != nil or include.series != nil %}
+
+{%- if page.series != nil -%}
+    {% assign series = site.data.series[page.series] %}
+{%- else -%}
+    {% assign series = site.data.series[include.series] %}
+{%- endif -%}
+
+<div class="post-series">
+    <header>{{ series.name }} 시리즈</header>
+    <ol>
+    {% for post in series.posts %}
+    <li>
+        <div>
+        {% if post.published == false %}
+        <span class="series-not-published">{{ post.title }}</span>
+        {% elsif page.url == post.path %}
+        <span class="series-current">{{ post.title }}</span>
+        {% else %}
+        <a href="{{ post.path }}">{{ post.title }}</a>
+        {% endif %}
+        </div>
+    </li>
+    {% endfor %}
+    </ol>
+</div>
+{% endif %}
