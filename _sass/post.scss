@@ -27,6 +27,15 @@
         color: #bd6161;
     }
 
+    kbd {
+        box-sizing: content-box;
+        padding: 5px;
+        background-color: #000000;
+        border-radius: 2px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
     strong {
         box-shadow: inset 0em -0.5em gold;
     }
@@ -81,6 +90,23 @@
         max-width: 100%;
     }
 
+    figure {
+        text-align: center;
+        padding: 1em 0 0.5em 0;
+
+        figcaption {
+            :after {
+                content: ">"
+            }
+            :before {
+                content: "<"
+            }
+
+            font-weight: 100;
+            font-size: 0.7em;
+        }
+    }
+
     blockquote {
         position: relative;
         margin: 2em 0;
@@ -109,5 +135,37 @@
         overflow-x: scroll;
     }
 
-    
+    .post-series {
+        margin: 30px 0;
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+        padding: 20px 20px 10px 20px;
+        background-color: #fcfcfc;
+
+        li {
+            font-size: 0.8em;
+            line-height: 1em;
+        }
+        
+        li:not(:last-child) {
+            margin-bottom: 1em;
+        }
+
+        .series-not-published {
+            color: gray;
+            font-weight: 100;
+        }
+
+        .series-not-published::after {
+            content: " (예정)"
+        }
+
+        .series-current {
+            font-weight: 600;
+        }
+
+        .series-current::after {
+            content: " 👈";
+        }
+    }
 }

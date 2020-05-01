@@ -23,7 +23,7 @@ title: HOME
 
         <!-- Post Meta Data -->
         <p class="post-meta">
-          <time>
+          <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="dtPublished">
             {{ post.date | date: "%Y. %m. %d." }}
           </time>
 
