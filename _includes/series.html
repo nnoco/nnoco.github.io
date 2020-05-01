@@ -12,11 +12,12 @@
     {% for post in series.posts %}
     <li>
         <div>
-        {% if post.published == false %}
+            <!-- {{ page.url }} {{ post.path }} -->
+        {%- if post.published == false -%}
         <span class="series-not-published">{{ post.title }}</span>
-        {% elsif page.url == post.path %}
+        {%- elsif page.url == post.path -%}
         <span class="series-current">{{ post.title }}</span>
-        {% else %}
+        {%- else -%}
         <a href="{{ post.path }}">{{ post.title }}</a>
         {% endif %}
         </div>
