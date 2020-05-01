@@ -4,5 +4,6 @@ date: 2020-05-01 21:04:05
 tags: Java Annotation APT PAPA Reflection
 categories: dev java
 series: java_annotation_in_action
+number: 7
 published: false
 ---
