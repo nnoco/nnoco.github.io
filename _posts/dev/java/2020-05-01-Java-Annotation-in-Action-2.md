@@ -1,10 +1,9 @@
 ---
 title: Java Annotation in Action 2
-date: 2020-05-01 20:43:29
+date: 2020-05-01 20:43:29+0900
 tags: Java Annotation APT PAPA Reflection
 categories: dev java
 series: java_annotation_in_action
-number: 2
 ---
 
 애너테이션은 직접 정의하여 활용할 수 있습니다. 이러한 애너테이션을 사용자 정의(User Defined) 또는 커스텀(Custom) 애너테이션이라고 합니다. 애너테이션도 인터페이스, 클래스와 같은 하나의 타입이며, 인터페이스의 특성을 갖습니다. 이번 글에서는 애너테이션을 작성하기 위한 문법과 애너테이션의 특성을 부여하기 위한 자바 내장 애너테이션에 대해 다뤄보겠습니다.

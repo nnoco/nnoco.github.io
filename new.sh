@@ -32,7 +32,7 @@ else
     `touch $filepath`
     echo --- >> $filepath
     echo title: $title >> $filepath
-    echo date: $date $time >> $filepath
+    echo date: $date $time+0900 >> $filepath
     echo tags: >> $filepath
     echo categories: >> $filepath
     echo --- >> $filepath

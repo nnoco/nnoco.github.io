@@ -1,39 +1,31 @@
 name: Java Annotation in Action
 posts:
   - title: '애너테이션 소개'
-    number: 1
-    path: /dev/java/2020/05/02/Java-Annotation-in-Action-1.html
+    path: /dev/java/2020/05/01/Java-Annotation-in-Action-1.html
 
   - title: '애너테이션 작성'
-    number: 2
-    path: /dev/java/2020/05/02/Java-Annotation-in-Action-2.html
+    path: /dev/java/2020/05/01/Java-Annotation-in-Action-2.html
 
   - title: '리플렉션을 이용한 런타임 애너테이션 처리'
-    number: 3
-    path: /dev/java/2020/05/02/Java-Annotation-in-Action-3.html
+    path: /dev/java/2020/05/01/Java-Annotation-in-Action-3.html
     published: false
 
   - title: '@Autowired 따라잡기'
-    number: 4
-    path: /dev/java/2020/05/02/Java-Annotation-in-Action-4.html
+    path: /dev/java/2020/05/01/Java-Annotation-in-Action-4.html
     published: false
 
   - title: 'Netflix Feign 따라잡기'
-    number: 5
-    path: /dev/java/2020/05/02/Java-Annotation-in-Action-5.html
+    path: /dev/java/2020/05/01/Java-Annotation-in-Action-5.html
     published: false
 
   - title: 'Bean에 환경변수 설정하기'
-    number: 6
-    path: /dev/java/2020/05/02/Java-Annotation-in-Action-6.html
+    path: /dev/java/2020/05/01/Java-Annotation-in-Action-6.html
     published: false
 
   - title: '컴파일 타임 애너테이션 처리'
-    number: 7
-    path: /dev/java/2020/05/02/Java-Annotation-in-Action-7.html
+    path: /dev/java/2020/05/01/Java-Annotation-in-Action-7.html
     published: false
   
   - title: '부록'
-    number: 8
-    path: /dev/java/2020/05/02/Java-Annotation-in-Action-8.html
+    path: /dev/java/2020/05/01/Java-Annotation-in-Action-8.html
     published: false
