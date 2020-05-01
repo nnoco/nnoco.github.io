@@ -34,13 +34,15 @@ layout: default
       <ol>
         {% for post in series.posts %}
         <li>
-          {% if post.published == false %}
-          <span class="series-not-published">{{ post.title }}</span>
-          {% elsif page.url == post.path %}
-          <span class="series-current">{{ post.title }}</span>
-          {% else %}
-          <a href="{{ post.path }}">{{ post.title }}</a>
-          {% endif %}
+          <div>
+            {% if post.published == false %}
+            <span class="series-not-published">{{ post.title }}</span>
+            {% elsif page.url == post.path %}
+            <span class="series-current">{{ post.title }}</span>
+            {% else %}
+            <a href="{{ post.path }}">{{ post.title }}</a>
+            {% endif %}
+          </div>
         </li>
         {% endfor %}
       </ol>

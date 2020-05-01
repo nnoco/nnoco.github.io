@@ -145,6 +145,7 @@
         li {
             font-size: 0.8em;
             line-height: 1em;
+            position: relative;
         }
         
         li:not(:last-child) {
@@ -164,8 +165,10 @@
             font-weight: 600;
         }
 
-        .series-current::after {
-            content: " 👈";
+        .series-current::before {
+            position: absolute;
+            content: "👉";
+            left: -2.6em;
         }
     }
 }
