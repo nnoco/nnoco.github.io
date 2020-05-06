@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Study
+title: Studies
 permalink: /study
 ---
 
