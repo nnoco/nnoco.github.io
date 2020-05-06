@@ -180,7 +180,7 @@ public class NotNullValidator {
 4\. `field.setAccessible(true);`  
 필드의 accessible은 필드에 접근할 수 있는지 여부를 나타냅니다. `private` 필드의 경우 기본적으로 접근할 수 없습니다. 따라서 `setAccessible(true)`를 호출해 주어 접근 가능하도록 만들고, 뒤에서 필드의 값을 가져올 수 있도록 합니다. 만약 이런 식으로 객체의 캡슐화를 깨고 싶지 않다면 해당 필드의 값을 반환하는 Getter 메서드를 호출하여 값을 가져오도록 할 수도 있습니다.
 
-5\. `value = field.get(object);`
+5\. `value = field.get(object);`  
 `get()` 메서드를 이용해 특정 객체의 필드에 담긴 값을 가져올 수 있습니다. 이 때 실제 객체를 인자로 넘겨줄 수 있으며, 해당 `field`가 정의된 객체여야 합니다. 만약 `field`와 `object`가 올바르지 않다면 `IllegalArgumentException`이 발생하며, `field`에 접근 할 수 없는 경우에는 `IllegalAccessException`이 발생합니다. 4번의 과정에서 accessible을 `ture`로 설정했으므로 `IllegalAccessException`은 발생하지 않고 정상적으로 값을 가져올 수 있습니다.
 
 끝으로 `validateField` 메서드에서 필드의 값이 `null`인지 체크하고 `null`이라면 `IllegalArgumentException`을 발생시킵니다. 이 때 `IllegalArgumentException`의 인자로 `@NotNull` 애너테이션의 인스턴스인 `notNull`의 `message()`를 호출하여 애너테이션을 태그할 때 `message` 요소에 전달한 메시지를 전달합니다.
