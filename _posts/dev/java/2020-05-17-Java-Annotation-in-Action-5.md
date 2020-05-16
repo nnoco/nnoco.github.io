@@ -196,6 +196,7 @@ minus 메서드 끝. -1
 여기까지 Java Annotation in Action 3, 4, 5편을 통해 리플렉션과 리플렉션을 이용해 애너테이션을 읽고 처리하는 방법을 다뤄봤습니다. 클래스나 생성자 등 아직 다루지 않은 리플렉션의 영역들이 있지만 시리즈의 나머지 편에서 보다 실용적인 예제들과 함께 리플렉션의 추가적인 내용을 다뤄보도록 하겠습니다.
 
 \* 작성한 코드는 [GitHub Repository](https://github.com/nnoco/java-annotation-in-action/tree/master/src/io/github/nnoco/annotation_in_action/ch5)에서 확인하실 수 있습니다.
+
 ---
 ## References
 - [https://docs.oracle.com/javase/8/docs/technotes/guides/reflection/proxy.html](https://docs.oracle.com/javase/8/docs/technotes/guides/reflection/proxy.html)
