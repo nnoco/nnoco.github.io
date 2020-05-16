@@ -198,3 +198,4 @@ minus 메서드 끝. -1
 ---
 ## References
 - [https://docs.oracle.com/javase/8/docs/technotes/guides/reflection/proxy.html](https://docs.oracle.com/javase/8/docs/technotes/guides/reflection/proxy.html)
+- [https://www.baeldung.com/java-dynamic-proxies](https://www.baeldung.com/java-dynamic-proxies)
