@@ -6,10 +6,10 @@ posts:
   - title: '애너테이션 작성'
     path: /dev/java/2020/05/01/Java-Annotation-in-Action-2.html
 
-  - title: '리플렉션을 이용한 런타임 애너테이션 처리(필드)'
+  - title: '리플렉션을 이용한 런타임 애너테이션 처리 - 필드편'
     path: /dev/java/2020/05/06/Java-Annotation-in-Action-3.html
 
-  - title: '리플렉션을 이용한 런타임 애너테이션 처리(메서드)'
+  - title: '리플렉션을 이용한 런타임 애너테이션 처리 - 메서드편'
     path: /dev/java/2020/05/16/Java-Annotation-in-Action-4.html
 
   - title: '@Autowired 따라잡기'

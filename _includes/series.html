@@ -24,4 +24,10 @@
     {% endfor %}
     </ol>
 </div>
+
+{% for post in series.posts %}
+    {%- if page.url == post.path -%}
+    <h1>{{ post.title }}</h1>
+    {% endif %}
+{% endfor %}
 {% endif %}
