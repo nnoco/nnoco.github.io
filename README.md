@@ -1,5 +1,7 @@
-# nnoco 기술 블로그
+# nnoco.github.io
 Jekyll 기반으로 작성한 블로그입니다.
+
+
 
 ## Series
 `_data/series` 하위에 시리즈를 정의하는 YAML 파일을 작성하여 포스트에 시리즈를 적용할 수 있도록 함
