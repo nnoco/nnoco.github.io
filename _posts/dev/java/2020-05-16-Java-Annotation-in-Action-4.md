@@ -4,10 +4,9 @@ date: 2020-05-16 21:31:34+0900
 tags: Java Annotation APT PAPA Reflection
 categories: dev java
 series: java_annotation_in_action
-published: true
 ---
 
-Java Annotation in Action 3편에서는 필드에 애너테이션을 태그하여 필드의 값을 체크해 봤습니다. 이번 편에서는 리플렉션을 통해 메서드와 메서드의 파라미터의 애너테이션을 다뤄봅니다.
+Java Annotation in Action 3편에서는 필드에 애너테이션을 태그하여 필드의 값을 체크해 봤습니다. 이번 편에서는 리플렉션을 통해 메서드와 파라미터의 애너테이션을 다뤄봅니다.
 
 메서드의 경우에도 필드를 가져올 때와 유사하게 대상 클래스의 `Class` 객체를 얻고, `Class`의 `getMethod(String, Class...)`, `getMethods()` 메서드나 `getDeclaredMethod(String, Class...)`, `getDeclaredMethods()` 메서드를 이용해 클래스에 정의되어 있는 메서드를 가져올 수 있습니다.
 
